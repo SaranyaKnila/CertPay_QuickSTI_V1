@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20210319_133106</name>
+   <tag></tag>
+   <displayName>20210319_133106</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210319_133106/Certpay_testSuite/Quicksti_Samday_FullRefunds_Admin/20210319_133108</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>CertPay</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210319_133106/Certpay_testSuite/Quicksti_Sameday_PartialRefund_Admin/20210319_133111</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>CertPay</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210319_133106/Certpay_testSuite/Quicksti_Sameday_Refund_Void_Admin/20210319_133113</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>CertPay</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Certpay_TestSuite_Collection/Certpay_testSuiteCollection</testSuiteCollectionId>
+</ReportCollectionEntity>

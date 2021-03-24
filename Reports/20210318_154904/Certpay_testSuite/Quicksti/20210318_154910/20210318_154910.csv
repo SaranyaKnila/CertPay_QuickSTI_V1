@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Quicksti,Chrome 89.0.4389.90,,,2021-03-18 15:49:35,2021-03-18 16:26:29,36m - 54.168s,PASSED
+,,,,,,,
+Test Cases/Certpay_Quicksti/TC_003_MultiBureauSite_SingleBureau_SingleLinePayment,Chrome 89.0.4389.90,,,2021-03-18 15:49:37,2021-03-18 15:59:57,10m - 20.246s,PASSED
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-18 15:49:37,2021-03-18 15:49:37,0.006s,PASSED
+"data = findTestData(""Data Files/Certpay/SingleBureau_SingleLine"")",Chrome 89.0.4389.90,,,2021-03-18 15:49:38,2021-03-18 15:49:43,4.941s,PASSED
+paymentIdList = [],Chrome 89.0.4389.90,,,2021-03-18 15:49:43,2021-03-18 15:49:43,0.003s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 89.0.4389.90,,,2021-03-18 15:49:43,2021-03-18 15:59:55,10m - 11.900s,PASSED
+return paymentIdList,Chrome 89.0.4389.90,,,2021-03-18 15:59:55,2021-03-18 15:59:55,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-18 15:59:55,2021-03-18 15:59:57,2.021s,PASSED
+,,,,,,,
+Test Cases/Certpay_Quicksti/TC_005_MultiBureauSite_MultiBureaus_MultiLinePayments,Chrome 89.0.4389.90,,,2021-03-18 15:59:57,2021-03-18 16:16:37,16m - 39.894s,PASSED
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-18 15:59:58,2021-03-18 15:59:58,0.000s,PASSED
+"data = findTestData(""Certpay/MultiBureau_MultiLine"")",Chrome 89.0.4389.90,,,2021-03-18 15:59:59,2021-03-18 16:00:00,0.661s,PASSED
+amountList = [],Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:00:00,0.001s,PASSED
+referenceList = [],Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:00:00,0.000s,PASSED
+paymentTypeList = [],Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:00:00,0.000s,PASSED
+quantityList = [],Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:00:00,0.000s,PASSED
+commentsList = [],Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:00:00,0.002s,PASSED
+paymentIdList = [],Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:00:00,0.001s,PASSED
+list = new java.util.ArrayList(),Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:00:00,0.000s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 89.0.4389.90,,,2021-03-18 16:00:00,2021-03-18 16:16:36,16m - 36.397s,PASSED
+return paymentIdList,Chrome 89.0.4389.90,,,2021-03-18 16:16:36,2021-03-18 16:16:36,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-18 16:16:36,2021-03-18 16:16:37,1.079s,PASSED
+,,,,,,,
+Test Cases/Certpay_Quicksti/TC_004_MultiBureauSite_MultiBureaus_SingleLinePayment,Chrome 89.0.4389.90,,,2021-03-18 16:16:37,2021-03-18 16:26:29,9m - 51.621s,PASSED
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-18 16:16:37,2021-03-18 16:16:37,0.000s,PASSED
+"data = findTestData(""Data Files/Certpay/MultiBureau_SingleLine"")",Chrome 89.0.4389.90,,,2021-03-18 16:16:37,2021-03-18 16:16:38,0.066s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 89.0.4389.90,,,2021-03-18 16:16:38,2021-03-18 16:26:28,9m - 50.366s,PASSED
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-18 16:26:28,2021-03-18 16:26:29,0.783s,PASSED

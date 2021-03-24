@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Consumer_Payment_Making" time="209.9" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Consumer_Payment_Making" tests="1" failures="0" errors="0" time="209.9" skips="0" timestamp="2021-03-18 18:06:17" hostname="saranya - KNILA-K202011012" id="Test Suites/Certpay_testSuite/Consumer_Payment_Making">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\AutomationToolsandProjects\\Katalon Projects BackUp\\Sush_Certpay-master\\Reports\\20210318_180557\\Certpay_testSuite\\Consumer_Payment_Making\\20210318_180603"/>
+         <property name="logFiles" value="D:\\AutomationToolsandProjects\\Katalon Projects BackUp\\Sush_Certpay-master\\Reports\\20210318_180557\\Certpay_testSuite\\Consumer_Payment_Making\\20210318_180603\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="saranya - KNILA-K202011012"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="172.31.252.138"/>
+         <property name="sessionId" value="97a6611988a70799b2ef35a7c676f706"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment" time="204.904" classname="Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment" status="PASSED">
+         <system-out><![CDATA[2021-03-18 18:06:21 - [TEST_CASE][PASSED] - Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment: Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment
+
+2021-03-18 18:06:22 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2021-03-18 18:06:23 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime]): Browser launched successfully
+
+2021-03-18 18:06:24 - [MESSAGE][INFO] - Opening Browser
+
+2021-03-18 18:06:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-18 18:06:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-18 18:06:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpay.faps.net/'
+
+2021-03-18 18:06:45 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-18 18:06:45 - [MESSAGE][PASSED] - Browser launched successfully
+
+2021-03-18 18:06:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("MAKE_ PAYMENT/Home_ Page/BUREAU_CODE"), bureauCode, "Bureau code", [pageLoadTime]): Consumer_Payment_Making.ts:Entered'6100000 into Bureau code
+
+2021-03-18 18:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is present
+
+2021-03-18 18:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is visible
+
+2021-03-18 18:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is present
+
+2021-03-18 18:06:49 - [MESSAGE][PASSED] - Text '6100000' is set on object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE'
+
+2021-03-18 18:06:49 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'6100000 into Bureau code
+
+2021-03-18 18:06:49 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT"), "Begin payment", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Begin payment
+
+2021-03-18 18:06:49 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:06:50 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is present
+
+2021-03-18 18:06:51 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is clickable
+
+2021-03-18 18:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is clicked on
+
+2021-03-18 18:06:55 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Begin payment
+
+2021-03-18 18:06:55 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), "Continue", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:06:55 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is present
+
+2021-03-18 18:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2021-03-18 18:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clicked on
+
+2021-03-18 18:07:01 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:07:01 - [TEST_STEP][PASSED] - pages.Payment_Page.setAmount("1", paymentAmount, "testing", referenceNum): Consumer_Payment_Making.ts:Entered'testing into Comments
+
+2021-03-18 18:07:02 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:02 - [MESSAGE][PASSED] - Object '' is visible
+
+2021-03-18 18:07:03 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:04 - [MESSAGE][PASSED] - Text '20.00' is set on object ''
+
+2021-03-18 18:07:04 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'20.00 into Amount
+
+2021-03-18 18:07:05 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:05 - [MESSAGE][PASSED] - Object '' is visible
+
+2021-03-18 18:07:06 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:07 - [MESSAGE][PASSED] - Text '12' is set on object ''
+
+2021-03-18 18:07:07 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'12 into Amount
+
+2021-03-18 18:07:08 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:08 - [MESSAGE][PASSED] - Object '' is visible
+
+2021-03-18 18:07:08 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:10 - [MESSAGE][PASSED] - Text 'testing' is set on object ''
+
+2021-03-18 18:07:10 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'testing into Comments
+
+2021-03-18 18:07:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/ADD_ANOTHER_PROPERTY"), "Multi-Payment", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Multi-Payment
+
+2021-03-18 18:07:10 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/ADD_ANOTHER_PROPERTY' is present
+
+2021-03-18 18:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/ADD_ANOTHER_PROPERTY' is clickable
+
+2021-03-18 18:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ADD_ANOTHER_PROPERTY' is clicked on
+
+2021-03-18 18:07:18 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Multi-Payment
+
+2021-03-18 18:07:18 - [TEST_STEP][PASSED] - pages.Payment_Page.setAmount("2", paymentAmount2, "Payment for testing", "22"): Consumer_Payment_Making.ts:Entered'Payment for testing into Comments
+
+2021-03-18 18:07:20 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:20 - [MESSAGE][PASSED] - Object '' is visible
+
+2021-03-18 18:07:20 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:22 - [MESSAGE][PASSED] - Text '15.00' is set on object ''
+
+2021-03-18 18:07:22 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'15.00 into Amount
+
+2021-03-18 18:07:22 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:23 - [MESSAGE][PASSED] - Object '' is visible
+
+2021-03-18 18:07:23 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:25 - [MESSAGE][PASSED] - Text '22' is set on object ''
+
+2021-03-18 18:07:25 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'22 into Amount
+
+2021-03-18 18:07:25 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:26 - [MESSAGE][PASSED] - Object '' is visible
+
+2021-03-18 18:07:26 - [MESSAGE][PASSED] - Object '' is present
+
+2021-03-18 18:07:28 - [MESSAGE][PASSED] - Text 'Payment for testing' is set on object ''
+
+2021-03-18 18:07:28 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'Payment for testing into Comments
+
+2021-03-18 18:07:28 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("MAKE_ PAYMENT/Home_ Page/BANK_CARD"), "Bank card", [pageLoadTime]): Consumer_Payment_Making.ts:Checkbox 'Bank card'is selected
+
+2021-03-18 18:07:28 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD' is present
+
+2021-03-18 18:07:30 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD' is present
+
+2021-03-18 18:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/BANK_CARD' is clicked on
+
+2021-03-18 18:07:31 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Checkbox 'Bank card'is selected
+
+2021-03-18 18:07:31 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-03-18 18:07:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-18 18:07:31 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("MAKE_ PAYMENT/Home_ Page/CARD_TYPE"), cardType, "CardType", [pageLoadTime]): selected dropdown option by visible text  Discoverfrom CardType
+
+2021-03-18 18:07:32 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE' is visible
+
+2021-03-18 18:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE' is present
+
+2021-03-18 18:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE' is clicked on
+
+2021-03-18 18:07:35 - [MESSAGE][PASSED] - All options with label 'Discover' are selected in object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CARD_TYPE'  using regular expression
+
+2021-03-18 18:07:35 - [MESSAGE][PASSED] - selected dropdown option by visible text  Discoverfrom CardType
+
+2021-03-18 18:07:35 - [TEST_STEP][PASSED] - utilities.SafeActions.safeSelectOptionInDropdownByVisibleText(findTestObject("MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE"), paymentType, "Payment Type", [pageLoadTime]): selected dropdown option by visible text  Giftsfrom Payment Type
+
+2021-03-18 18:07:36 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE' is visible
+
+2021-03-18 18:07:36 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE' is present
+
+2021-03-18 18:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE' is clicked on
+
+2021-03-18 18:07:39 - [MESSAGE][PASSED] - All options with label 'Gifts' are selected in object 'Object Repository/MAKE_ PAYMENT/Home_ Page/PAYMENT_TYPE'  using regular expression
+
+2021-03-18 18:07:39 - [MESSAGE][PASSED] - selected dropdown option by visible text  Giftsfrom Payment Type
+
+2021-03-18 18:07:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), 30): Scroll to object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' successfully
+
+2021-03-18 18:07:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' successfully
+
+2021-03-18 18:07:40 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), "Continue", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:07:40 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:07:40 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is present
+
+2021-03-18 18:07:41 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2021-03-18 18:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clicked on
+
+2021-03-18 18:07:44 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:07:44 - [TEST_STEP][PASSED] - pages.Payment_Page.setPersonalDetails(firstName, lastName, telephone): Consumer_Payment_Making.ts:Entered'9640400667 into Telephone
+
+2021-03-18 18:07:46 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME' is present
+
+2021-03-18 18:07:46 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME' is visible
+
+2021-03-18 18:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME' is present
+
+2021-03-18 18:07:49 - [MESSAGE][PASSED] - Text 'Soha' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/FIRST_NAME'
+
+2021-03-18 18:07:49 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'Soha into FirstName
+
+2021-03-18 18:07:49 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME' is present
+
+2021-03-18 18:07:50 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME' is visible
+
+2021-03-18 18:07:50 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME' is present
+
+2021-03-18 18:07:52 - [MESSAGE][PASSED] - Text 'brave' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/LAST_NAME'
+
+2021-03-18 18:07:52 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'brave into LastName
+
+2021-03-18 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE' is present
+
+2021-03-18 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE' is visible
+
+2021-03-18 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE' is present
+
+2021-03-18 18:07:55 - [MESSAGE][PASSED] - Text '9640400667' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/TELEPHONE'
+
+2021-03-18 18:07:55 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'9640400667 into Telephone
+
+2021-03-18 18:07:55 - [TEST_STEP][PASSED] - pages.Payment_Page.setLocationDetails(address, zipCode): Consumer_Payment_Making.ts:Entered'76120 into ZipCode
+
+2021-03-18 18:07:56 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS' is present
+
+2021-03-18 18:07:56 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS' is visible
+
+2021-03-18 18:07:57 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS' is present
+
+2021-03-18 18:07:58 - [MESSAGE][PASSED] - Text '14-2' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ADDRESS'
+
+2021-03-18 18:07:58 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'14-2 into Address
+
+2021-03-18 18:07:59 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE' is present
+
+2021-03-18 18:07:59 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE' is visible
+
+2021-03-18 18:08:00 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE' is present
+
+2021-03-18 18:08:01 - [MESSAGE][PASSED] - Text '76120' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/ZIP_CODE'
+
+2021-03-18 18:08:01 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'76120 into ZipCode
+
+2021-03-18 18:08:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), 30): Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2021-03-18 18:08:02 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2021-03-18 18:08:02 - [TEST_STEP][PASSED] - pages.Payment_Page.clickOnElement(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE")): pages.Payment_Page.clickOnElement is PASSED
+
+2021-03-18 18:08:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2021-03-18 18:08:05 - [MESSAGE][PASSED] - pages.Payment_Page.clickOnElement is PASSED
+
+2021-03-18 18:08:05 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox"), "Billing CheckBox", [pageLoadTime]): Consumer_Payment_Making.ts:Checkbox 'Billing CheckBox'is selected
+
+2021-03-18 18:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is present
+
+2021-03-18 18:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is present
+
+2021-03-18 18:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CheckBox' is clicked on
+
+2021-03-18 18:08:10 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Checkbox 'Billing CheckBox'is selected
+
+2021-03-18 18:08:10 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-03-18 18:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-18 18:08:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-18 18:08:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), "Continue", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:08:12 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is present
+
+2021-03-18 18:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2021-03-18 18:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clicked on
+
+2021-03-18 18:08:17 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:08:17 - [TEST_STEP][PASSED] - pages.Payment_Page.setCardDetails(cardNum, securityCode, expYear, expMonth): Actual text '6510000000000133' and expected text '6510000000000133' are matched  using regular expression
+
+2021-03-18 18:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is present
+
+2021-03-18 18:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is visible
+
+2021-03-18 18:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is present
+
+2021-03-18 18:08:21 - [MESSAGE][PASSED] - Text '6510000000000133' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM'
+
+2021-03-18 18:08:21 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'6510000000000133 into CardNum
+
+2021-03-18 18:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH' is visible
+
+2021-03-18 18:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH' is present
+
+2021-03-18 18:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH' is clicked on
+
+2021-03-18 18:08:25 - [MESSAGE][PASSED] - All options with label '05' are selected in object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_MONTH'  using regular expression
+
+2021-03-18 18:08:25 - [MESSAGE][PASSED] - selected dropdown option by visible text  05from Month
+
+2021-03-18 18:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR' is visible
+
+2021-03-18 18:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR' is present
+
+2021-03-18 18:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR' is clicked on
+
+2021-03-18 18:08:29 - [MESSAGE][PASSED] - All options with label '2021' are selected in object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EXP_YEAR'  using regular expression
+
+2021-03-18 18:08:29 - [MESSAGE][PASSED] - selected dropdown option by visible text  2021from year
+
+2021-03-18 18:08:30 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE' is present
+
+2021-03-18 18:08:30 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE' is visible
+
+2021-03-18 18:08:31 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE' is present
+
+2021-03-18 18:08:33 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/SECURITY_CODE'
+
+2021-03-18 18:08:33 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'207 into SecurityCode
+
+2021-03-18 18:08:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/CARD_NUM' is: '6510000000000133'
+
+2021-03-18 18:08:33 - [MESSAGE][PASSED] - Actual text '6510000000000133' and expected text '6510000000000133' are matched  using regular expression
+
+2021-03-18 18:08:33 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS"), emailAddress, "EmailAddress", [pageLoadTime]): Consumer_Payment_Making.ts:Entered'testing@zenq.com into EmailAddress
+
+2021-03-18 18:08:34 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS' is present
+
+2021-03-18 18:08:34 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS' is visible
+
+2021-03-18 18:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS' is present
+
+2021-03-18 18:08:36 - [MESSAGE][PASSED] - Text 'testing@zenq.com' is set on object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/EMAIL_ADDRESS'
+
+2021-03-18 18:08:36 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'testing@zenq.com into EmailAddress
+
+2021-03-18 18:08:36 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/CONTINUE"), "Continue", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:08:37 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is present
+
+2021-03-18 18:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clickable
+
+2021-03-18 18:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/CONTINUE' is clicked on
+
+2021-03-18 18:08:42 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:08:42 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE"), "I agree", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the I agree
+
+2021-03-18 18:08:42 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' is present
+
+2021-03-18 18:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' is clickable
+
+2021-03-18 18:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Consumer_Personal_ Details/I_AGREE' is clicked on
+
+2021-03-18 18:08:48 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the I agree
+
+2021-03-18 18:08:48 - [TEST_STEP][PASSED] - pages.Payment_Page.verifyUserDetails(firstName, lastName, emailAddress, cardType, ""): CardType matched
+
+2021-03-18 18:08:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME' successfully
+
+2021-03-18 18:08:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/FIRST_NAME' is: 'Soha'
+
+2021-03-18 18:08:50 - [MESSAGE][PASSED] - Actual text 'Soha' and expected text 'Soha' are matched  using regular expression
+
+2021-03-18 18:08:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/LAST_NAME' is: 'brave'
+
+2021-03-18 18:08:51 - [MESSAGE][PASSED] - Actual text 'brave' and expected text 'brave' are matched  using regular expression
+
+2021-03-18 18:08:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/EMAIL_ADDRESS' is: 'testing@zenq.com'
+
+2021-03-18 18:08:54 - [MESSAGE][PASSED] - Actual text 'testing@zenq.com' and expected text 'testing@zenq.com' are matched  using regular expression
+
+2021-03-18 18:08:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/CARD_TYPE' is: 'Discover'
+
+2021-03-18 18:08:54 - [MESSAGE][PASSED] - Actual text 'Discover' and expected text 'Discover' are matched  using regular expression
+
+2021-03-18 18:08:54 - [MESSAGE][PASSED] - CardType matched
+
+2021-03-18 18:08:54 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT"), "Process Payment", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Process Payment
+
+2021-03-18 18:08:54 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT' is present
+
+2021-03-18 18:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT' is clickable
+
+2021-03-18 18:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Verification_ Details/PROCESS_PAYMENT' is clicked on
+
+2021-03-18 18:08:56 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Process Payment
+
+2021-03-18 18:08:56 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Verification_ Details/YES_BUTTON"), "yes button", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the yes button
+
+2021-03-18 18:08:57 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/YES_BUTTON' is present
+
+2021-03-18 18:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/YES_BUTTON' is clickable
+
+2021-03-18 18:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Verification_ Details/YES_BUTTON' is clicked on
+
+2021-03-18 18:09:04 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the yes button
+
+2021-03-18 18:09:04 - [TEST_STEP][PASSED] - PaymentID = pages.Payment_Page.verifyCardPaymentApproval(referenceNum): pages.Payment_Page.verifyCardPaymentApproval is PASSED
+
+2021-03-18 18:09:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/PAY_ID_CARD' is: '100176224658'
+
+2021-03-18 18:09:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/MAKE_ PAYMENT/Verification_ Details/REFERENCE_NUM' is: '12'
+
+2021-03-18 18:09:09 - [MESSAGE][PASSED] - pages.Payment_Page.verifyCardPaymentApproval is PASSED
+
+2021-03-18 18:09:09 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("SEARCH_PAYMENT/SEARCH_PAYMENT"), "Search Payment", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Search Payment
+
+2021-03-18 18:09:09 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:09:10 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT' is present
+
+2021-03-18 18:09:10 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT' is clickable
+
+2021-03-18 18:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT' is clicked on
+
+2021-03-18 18:09:12 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Search Payment
+
+2021-03-18 18:09:12 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2021-03-18 18:09:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-18 18:09:12 - [TEST_STEP][PASSED] - pages.Search_Page.switchToWindow(): pages.Search_Page.switchToWindow is PASSED
+
+2021-03-18 18:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/SEARCH_PAYMENT/SEARCH_PAYMENT' is clicked on
+
+2021-03-18 18:09:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-03-18 18:09:14 - [MESSAGE][PASSED] - pages.Search_Page.switchToWindow is PASSED
+
+2021-03-18 18:09:14 - [TEST_STEP][PASSED] - utilities.SafeActions.safeCheck(findTestObject("SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD"), "Credit card", [pageLoadTime]): Consumer_Payment_Making.ts:Checkbox 'Credit card'is selected
+
+2021-03-18 18:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD' is present
+
+2021-03-18 18:09:17 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD' is present
+
+2021-03-18 18:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD' is clicked on
+
+2021-03-18 18:09:19 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Checkbox 'Credit card'is selected
+
+2021-03-18 18:09:19 - [TEST_STEP][PASSED] - pages.Search_Page.setSearchDetails(lastName, cardNum, accNum): Credit card is checked and cardNum is entered 
+
+2021-03-18 18:09:19 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME' is present
+
+2021-03-18 18:09:20 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME' is visible
+
+2021-03-18 18:09:20 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME' is present
+
+2021-03-18 18:09:22 - [MESSAGE][PASSED] - Text 'brave' is set on object 'Object Repository/SEARCH_PAYMENT/BILLING_LAST_NAME'
+
+2021-03-18 18:09:22 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'brave into LastName
+
+2021-03-18 18:09:22 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/CREDIT_OR_DEBIT_CARD' is checked
+
+2021-03-18 18:09:23 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/CARD_NUMBER' is present
+
+2021-03-18 18:09:23 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/CARD_NUMBER' is visible
+
+2021-03-18 18:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/CARD_NUMBER' is present
+
+2021-03-18 18:09:25 - [MESSAGE][PASSED] - Text '6510000000000133' is set on object 'Object Repository/SEARCH_PAYMENT/CARD_NUMBER'
+
+2021-03-18 18:09:26 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'6510000000000133 into CArdNum
+
+2021-03-18 18:09:26 - [MESSAGE][PASSED] - Credit card is checked and cardNum is entered 
+
+2021-03-18 18:09:26 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("SEARCH_PAYMENT/SEARCH_BUTTON"), "Search", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Search
+
+2021-03-18 18:09:26 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:09:26 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEARCH_BUTTON' is present
+
+2021-03-18 18:09:27 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEARCH_BUTTON' is clickable
+
+2021-03-18 18:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SEARCH_PAYMENT/SEARCH_BUTTON' is clicked on
+
+2021-03-18 18:09:33 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Search
+
+2021-03-18 18:09:33 - [TEST_STEP][PASSED] - pages.Payment_Page.verifyPaymentDetailsInReceipt(PaymentID): pages.Payment_Page.verifyPaymentDetailsInReceipt is PASSED
+
+2021-03-18 18:09:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/SEARCH_PAYMENT/REFERNCE_NUM' is: '22'
+
+2021-03-18 18:09:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/SEARCH_PAYMENT/PAYMENT_ID' is: '100176224662'
+
+2021-03-18 18:09:35 - [MESSAGE][PASSED] - pages.Payment_Page.verifyPaymentDetailsInReceipt is PASSED
+
+2021-03-18 18:09:35 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("SEARCH_PAYMENT/SEARCH_ ICON"), "SearchIcon", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the SearchIcon
+
+2021-03-18 18:09:35 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEARCH_ ICON' is present
+
+2021-03-18 18:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEARCH_ ICON' is clickable
+
+2021-03-18 18:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SEARCH_PAYMENT/SEARCH_ ICON' is clicked on
+
+2021-03-18 18:09:37 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the SearchIcon
+
+2021-03-18 18:09:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-18 18:09:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-18 18:09:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("SEARCH_PAYMENT/CLOSE_BUTTON"), 0): Scroll to object 'Object Repository/SEARCH_PAYMENT/CLOSE_BUTTON' successfully
+
+2021-03-18 18:09:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-18 18:09:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/SEARCH_PAYMENT/CLOSE_BUTTON' successfully
+
+2021-03-18 18:09:40 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("SEARCH_PAYMENT/EMAIL_ RECEIPT"), "Email Receipt", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Email Receipt
+
+2021-03-18 18:09:40 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:09:41 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/EMAIL_ RECEIPT' is present
+
+2021-03-18 18:09:41 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/EMAIL_ RECEIPT' is clickable
+
+2021-03-18 18:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SEARCH_PAYMENT/EMAIL_ RECEIPT' is clicked on
+
+2021-03-18 18:09:42 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Email Receipt
+
+2021-03-18 18:09:42 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("SEARCH_PAYMENT/SEND_ EMAIL_BUTTON"), "Send Email", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Send Email
+
+2021-03-18 18:09:43 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEND_ EMAIL_BUTTON' is present
+
+2021-03-18 18:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/SEARCH_PAYMENT/SEND_ EMAIL_BUTTON' is clickable
+
+2021-03-18 18:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SEARCH_PAYMENT/SEND_ EMAIL_BUTTON' is clicked on
+
+2021-03-18 18:09:45 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Send Email
+
+2021-03-18 18:09:45 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2021-03-18 18:09:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-18 18:09:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-18 18:06:17 - [TEST_SUITE][PASSED] - Consumer_Payment_Making: Test Cases/Consumer_Make_Payment/TC_002_Credit_MultiLine_Payment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

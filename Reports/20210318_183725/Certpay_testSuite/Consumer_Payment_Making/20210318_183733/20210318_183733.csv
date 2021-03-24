@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Consumer_Payment_Making,Chrome 89.0.4389.90,,,2021-03-18 18:37:55,2021-03-18 18:40:09,2m - 14.299s,ERROR
+,,,,,,,
+Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment,Chrome 89.0.4389.90,,,2021-03-18 18:38:07,2021-03-18 18:40:09,2m - 2.025s,ERROR
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-18 18:38:08,2021-03-18 18:38:08,0.027s,PASSED
+"utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime])",Chrome 89.0.4389.90,Open Certpay application,,2021-03-18 18:38:09,2021-03-18 18:38:37,27.832s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""MAKE_ PAYMENT/Home_ Page/BUREAU_CODE""), bureauCode, ""Bureau code"", [pageLoadTime])",Chrome 89.0.4389.90,Enter valid Bureau code,,2021-03-18 18:38:37,2021-03-18 18:38:42,4.784s,PASSED
+"utilities.SafeActions.safeClick(findTestObject(""MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT""), ""Begin payment"", [pageLoadTime])",Chrome 89.0.4389.90,Click on 'Begin Payment',,2021-03-18 18:38:42,2021-03-18 18:38:50,7.930s,PASSED
+"utilities.SafeActions.safeClick(findTestObject(""MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON""), ""Continue"", [pageLoadTime])",Chrome 89.0.4389.90,Click on 'Continue',,2021-03-18 18:38:50,2021-03-18 18:38:53,3.243s,PASSED
+"utilities.SafeActions.safeCheck(findTestObject(""MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK""), ""Echeck"", [pageLoadTime])",Chrome 89.0.4389.90,Select 'Electronic check' radio button,,2021-03-18 18:38:53,2021-03-18 18:40:07,1m - 13.870s,ERROR
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-18 18:40:07,2021-03-18 18:40:09,2.402s,PASSED

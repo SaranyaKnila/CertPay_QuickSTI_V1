@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Consumer_Payment_Making" time="137.845" tests="1" failures="0" skips="0" errors="1">
+   <testsuite name="Consumer_Payment_Making" tests="1" failures="0" errors="1" time="137.845" skips="0" timestamp="2021-03-18 18:37:55" hostname="saranya - KNILA-K202011012" id="Test Suites/Certpay_testSuite/Consumer_Payment_Making">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\AutomationToolsandProjects\\Katalon Projects BackUp\\Sush_Certpay-master\\Reports\\20210318_183725\\Certpay_testSuite\\Consumer_Payment_Making\\20210318_183733"/>
+         <property name="logFiles" value="D:\\AutomationToolsandProjects\\Katalon Projects BackUp\\Sush_Certpay-master\\Reports\\20210318_183725\\Certpay_testSuite\\Consumer_Payment_Making\\20210318_183733\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="saranya - KNILA-K202011012"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="172.31.252.138"/>
+         <property name="sessionId" value="cc5d45795e69ecb473c7c1632cf2144a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment" time="122.025" classname="Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment" status="ERROR">
+         <error type="ERROR" message="Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616072853144.run(TempTestSuite1616072853144.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at utilities.SafeActions.highLightElement(SafeActions.groovy:59)
+	at utilities.SafeActions.safeCheck(SafeActions.groovy:79)
+	... 16 more
+"/>
+         <system-out><![CDATA[2021-03-18 18:38:07 - [TEST_CASE][ERROR] - Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment: Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616072853144.run(TempTestSuite1616072853144.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at utilities.SafeActions.highLightElement(SafeActions.groovy:59)
+	at utilities.SafeActions.safeCheck(SafeActions.groovy:79)
+	... 16 more
+
+
+2021-03-18 18:38:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2021-03-18 18:38:09 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(certpay_url, [pageLoadTime]): Browser launched successfully
+
+2021-03-18 18:38:10 - [MESSAGE][INFO] - Opening Browser
+
+2021-03-18 18:38:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-18 18:38:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-18 18:38:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpay.faps.net/'
+
+2021-03-18 18:38:37 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-18 18:38:37 - [MESSAGE][PASSED] - Browser launched successfully
+
+2021-03-18 18:38:37 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("MAKE_ PAYMENT/Home_ Page/BUREAU_CODE"), bureauCode, "Bureau code", [pageLoadTime]): Consumer_Payment_Making.ts:Entered'6100000 into Bureau code
+
+2021-03-18 18:38:38 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is present
+
+2021-03-18 18:38:39 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is visible
+
+2021-03-18 18:38:39 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE' is present
+
+2021-03-18 18:38:42 - [MESSAGE][PASSED] - Text '6100000' is set on object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BUREAU_CODE'
+
+2021-03-18 18:38:42 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Entered'6100000 into Bureau code
+
+2021-03-18 18:38:42 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT"), "Begin payment", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Begin payment
+
+2021-03-18 18:38:43 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:38:43 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is present
+
+2021-03-18 18:38:45 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is clickable
+
+2021-03-18 18:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/BEGIN_PAYMENT' is clicked on
+
+2021-03-18 18:38:50 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Begin payment
+
+2021-03-18 18:38:50 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON"), "Continue", [pageLoadTime]): Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:38:50 - [MESSAGE][INFO] - safeClicking
+
+2021-03-18 18:38:51 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON' is present
+
+2021-03-18 18:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON' is clickable
+
+2021-03-18 18:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MAKE_ PAYMENT/Home_ Page/NEXT_BUTTON' is clicked on
+
+2021-03-18 18:38:53 - [MESSAGE][PASSED] - Consumer_Payment_Making.ts:Clicked on the Continue
+
+2021-03-18 18:38:53 - [TEST_STEP][ERROR] - utilities.SafeActions.safeCheck(findTestObject("MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK"), "Echeck", [pageLoadTime]): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+
+2021-03-18 18:39:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='ctl00_mainContent_radCheck']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-18 18:39:56 - [MESSAGE][WARNING] - Object 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' is not present after 60 second(s)
+
+2021-03-18 18:40:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='ctl00_mainContent_radCheck']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-18 18:40:07 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+
+2021-03-18 18:40:07 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2021-03-18 18:40:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-18 18:40:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2021-03-18 18:38:07 - [TEST_CASE][ERROR] - Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment: Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616072853144.run(TempTestSuite1616072853144.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at utilities.SafeActions.highLightElement(SafeActions.groovy:59)
+	at utilities.SafeActions.safeCheck(SafeActions.groovy:79)
+	... 16 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-18 18:37:55 - [TEST_SUITE][ERROR] - Consumer_Payment_Making: Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616072853144.run(TempTestSuite1616072853144.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at utilities.SafeActions.highLightElement(SafeActions.groovy:59)
+	at utilities.SafeActions.safeCheck(SafeActions.groovy:79)
+	... 16 more]]></system-out>
+      <system-err><![CDATA[2021-03-18 18:37:55 - [TEST_SUITE][ERROR] - Consumer_Payment_Making: Test Cases/Consumer_Make_Payment/TC_004_Echeck_Checking_MultiLine_Payment FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_004_Echeck_Checking_MultiLine_Payment.run(TC_004_Echeck_Checking_MultiLine_Payment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616072853144.run(TempTestSuite1616072853144.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MAKE_ PAYMENT/Home_ Page/ELECTRONIC_CHECK' located by '//input[@id='ctl00_mainContent_radCheck']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at utilities.SafeActions.highLightElement(SafeActions.groovy:59)
+	at utilities.SafeActions.safeCheck(SafeActions.groovy:79)
+	... 16 more]]></system-err>
+   </testsuite>
+</testsuites>

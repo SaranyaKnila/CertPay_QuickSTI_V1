@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Quicksti_Samday_FullRefunds_Admin,Chrome 89.0.4389.90,,,2021-03-19 16:47:19,2021-03-19 17:30:06,42m - 47.090s,PASSED
+,,,,,,,
+Test Cases/SameDay_Refunds_Admin/TC_001_VISA_Sameday_FullRefund,Chrome 89.0.4389.90,,,2021-03-19 16:47:27,2021-03-19 17:01:57,14m - 29.905s,PASSED
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-19 16:47:27,2021-03-19 16:47:27,0.057s,PASSED
+"data = findTestData(""Data Files/Certpay/SingleBureau_SingleLine"")",Chrome 89.0.4389.90,,,2021-03-19 16:47:27,2021-03-19 16:47:31,3.676s,PASSED
+paymentIdList = [],Chrome 89.0.4389.90,,,2021-03-19 16:47:31,2021-03-19 16:47:31,0.001s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 89.0.4389.90,,,2021-03-19 16:47:31,2021-03-19 17:01:56,14m - 24.866s,PASSED
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-19 17:01:56,2021-03-19 17:01:57,0.884s,PASSED
+,,,,,,,
+Test Cases/SameDay_Refunds_Admin/TC_002_VISA_Sameday_PartialRefund,Chrome 89.0.4389.90,,,2021-03-19 17:01:57,2021-03-19 17:16:20,14m - 22.949s,PASSED
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-19 17:01:57,2021-03-19 17:01:57,0.000s,PASSED
+"data = findTestData(""Data Files/Certpay/SingleBureau_SingleLine"")",Chrome 89.0.4389.90,,,2021-03-19 17:01:57,2021-03-19 17:01:57,0.051s,PASSED
+paymentIdList = [],Chrome 89.0.4389.90,,,2021-03-19 17:01:57,2021-03-19 17:01:57,0.000s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 89.0.4389.90,,,2021-03-19 17:01:57,2021-03-19 17:16:19,14m - 21.731s,PASSED
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-19 17:16:19,2021-03-19 17:16:19,0.761s,PASSED
+,,,,,,,
+Test Cases/SameDay_Refunds_Admin/TC_003_VISA_SamedayRefund_Void,Chrome 89.0.4389.90,,,2021-03-19 17:16:20,2021-03-19 17:30:06,13m - 46.840s,PASSED
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-19 17:16:20,2021-03-19 17:16:20,0.000s,PASSED
+"data = findTestData(""Data Files/Certpay/SingleBureau_SingleLine"")",Chrome 89.0.4389.90,,,2021-03-19 17:16:20,2021-03-19 17:16:20,0.044s,PASSED
+paymentIdList = [],Chrome 89.0.4389.90,,,2021-03-19 17:16:20,2021-03-19 17:16:20,0.000s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 89.0.4389.90,,,2021-03-19 17:16:20,2021-03-19 17:30:06,13m - 45.710s,PASSED
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-19 17:30:06,2021-03-19 17:30:06,0.747s,PASSED

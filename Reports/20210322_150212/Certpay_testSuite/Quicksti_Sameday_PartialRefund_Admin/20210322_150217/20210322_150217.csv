@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Quicksti_Sameday_PartialRefund_Admin,Chrome 89.0.4389.90,,,2021-03-22 15:02:32,2021-03-22 15:18:56,16m - 24.130s,PASSED
+,,,,,,,
+Test Cases/SameDay_Refunds_Admin/TC_002_VISA_Sameday_PartialRefund,Chrome 89.0.4389.90,,,2021-03-22 15:02:35,2021-03-22 15:18:56,16m - 21.319s,PASSED
+Start listener action : beforeTestCase,Chrome 89.0.4389.90,,,2021-03-22 15:02:35,2021-03-22 15:02:35,0.022s,PASSED
+"data = findTestData(""Data Files/Certpay/SingleBureau_SingleLine"")",Chrome 89.0.4389.90,,,2021-03-22 15:02:35,2021-03-22 15:02:37,1.392s,PASSED
+paymentIdList = [],Chrome 89.0.4389.90,,,2021-03-22 15:02:37,2021-03-22 15:02:37,0.001s,PASSED
+for (def index : (1..data.getRowNumbers())),Chrome 89.0.4389.90,,,2021-03-22 15:02:37,2021-03-22 15:18:55,16m - 18.595s,PASSED
+Start listener action : afterTestCase,Chrome 89.0.4389.90,,,2021-03-22 15:18:55,2021-03-22 15:18:56,0.777s,PASSED
